@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Price Filter</name>
+  <author>SHD2</author>
+  <packageId>shdmk2.pricefilter</packageId>
+  <supportedVersions>
+    <li>1.7</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+  </loadAfter>
+  <description>Adds a "market value" filter next to the hit points and quality filters.
+
+- Bills (cremation, butchering, smelting...): only take items whose unit market value is between X and Y.
+- Stockpiles and shelves: same filter.
+- Two-handle slider + exact min/max input (empty = no limit).
+- Value per unit (as shown in the info card), minified items included.
+- Saved with your game; removing the mod does not break saves.
+- Language option in mod settings (English by default, French available).</description>
+</ModMetaData>
